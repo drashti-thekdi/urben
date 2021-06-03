@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scope One', serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    width:100%;
+    height: 100%;
+    background-image: url("../img/urban/banner.png");
+    background-size: cover;
+    background-position: center top;
+}
+
+.header h3{
+    float: left;
+    color: #fff;
+    font-weight: lighter;
+    margin-left:25px;
+    margin-top: 40px;
+}
+.header a{
+    float: right;
+    color: #fff;
+    margin-top: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.header a span{
+    margin-right: 10px;
+}
+.header h3 span{
+    color: #3498db;
+}
+
+/*banner starts*/
+
+.banner{
+   width: 100%;
+   height: 500px;
+   text-align: center;
+   clear: both;
+   color: #fff;
+   position: relative;
+   top: 30%;
+}
+
+.banner h1{
+    font-size: 48px;
+}
+
+.banner p{
+    font-size: 20px;
+}
+.banner button{
+    width: 150px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    border: 0;
+    font-family: 'Scope One', serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*Mid section*/
+
+.mid-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mid-section .left{
+    float: left;
+    width: 30%;
+    text-align: center;
+
+}
+.mid-section .left img{
+    width: 100%;
+    border-radius: 100%;
+}
+.mid-section .right{
+    float: right;
+    width: 65%;
+}
+.mid-section h2{
+    font-size: 25px;
+
+}
+.mid-section  p{
+    color: gray;
+    font-size: 13px;
+}
+.blue-button{
+    width: 120px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border:0;
+    font-family: 'Scope One', serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/*Wrapper*/
+
+.wrapper{
+    width: 100%;
+    background-color: #3498db;
+    padding: 30px 0;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.wrapper .left{
+    width: 65%;
+    text-align: left;
+}
+.wrapper .right{
+    width: 30%;
+}
+.wrapper .right img{
+
+    width: 100%;
+    border-radius: 100%;
+}
+.mid-section .left .blue-button{
+    background-color: #fff;
+    color: #3498db;
+
+}
+.mid-section .left p{
+    color:#fff;
+}
+
+/*Last section start*/
+
+.big-last-section{
+    width: 100%;
+    background-color: #fafafa;
+    padding: 50px 0;
+}
+.last-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    text-align: center;
+}
+.last-section h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.last-section p{
+    color: gray;
+}
+.box{
+    width: 30%;
+    margin-top:40px;
+    float: left;
+
+}
+.both-margin{
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+.box img{
+    border-radius: 100%;
+    border:4px solid #e7e6e6;
+    width: 90%;
+}
+.box p{
+    font-size: 15px;
+    margin-top: 30px;
+  
+ 
+    
+}
+
+/*footer starts*/
+
+.footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.footer .fa{
+    font-size: 30px;
+    color: gray;
+    border:5px double #e7e6e6;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* media query starts*/
+
+@media only screen and (max-width:700px) /*700px ke niche ka resolution*/{
+
+    .banner h1{
+        font-size: 38px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    .banner button{
+        width:100px;
+       background-color: orange;
+    }
+    .mid-section .left{
+        width: 100%;
+        clear: both;
+    }
+    .mid-section .right{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .mid-section .left img{
+        width: 50%;
+    }
+
+   .wrapper .mid-section .right img{
+        width: 50%;
+    }
+    .wrapper .mid-section .left{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .box{
+        width: 100%;
+        clear: both;
+    }
+    .box img{
+
+        width: 50%;
+    }
+    .both-margin{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+
+
+
+
+}
